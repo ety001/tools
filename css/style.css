@@ -5,4 +5,12 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  overflow: hidden;
+}
+.term {
+  height: 100%;
+  overflow: scroll;
+}
+pre {
+  color: #ddd;
 }
