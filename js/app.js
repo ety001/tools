@@ -40,6 +40,7 @@ var app = {
         greetings: $('#welcome').html(),
         name: 'to0ls',
         height: '100%',
+        width: '100%',
         prompt: 'ety001@to0l.cn $ '
       }
     );
