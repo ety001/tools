@@ -23,7 +23,9 @@ var app = {
     5: 'http://gfw.fuckspam.in',
     6: 'http://jizhang.ohshit.cc',
     7: 'http://partytime.cc',
-    8: 'http://ohshit.cc'
+    8: 'http://ohshit.cc',
+    'donate': 'http://www.domyself.me/donate',
+    'blog': 'http://www.domyself.me'
   },
   run: function(){
     $('.term').terminal(
@@ -32,16 +34,7 @@ var app = {
           window.open( app.list[command] );
           term.echo( new String('You are visiting ' + app.list[command]) );
         } else {
-          switch (command) {
-            case 'donate':
-              term.echo( new String('Donate ME ~') );
-              break;
-            case 'blog':
-              term.echo( new String('My Blog') );
-              break;
-            default:
-              term.echo(new String('Wrong command!'));
-          }
+          term.echo(new String('Wrong command!'));
         }
       }, {
         greetings: $('#welcome').html(),
