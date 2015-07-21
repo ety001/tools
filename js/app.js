@@ -49,7 +49,6 @@ var app = {
         prompt: 'ety001@to0l.cn $ '});
   }
 };
-
 $(function(){
   app.run();
 })
