@@ -26,27 +26,30 @@ var app = {
     8: 'http://ohshit.cc'
   },
   run: function(){
-    $('.term').terminal(function(command, term) {
-      if(app.list[command]!=undefined){
-        window.open( app.list[command] );
-        term.echo( new String('You are visiting ' + app.list[command]) );
-      } else {
-        switch (command) {
-          case 'donate':
-            term.echo( new String('Donate ME ~') );
-            break;
-          case 'blog':
-            term.echo( new String('My Blog') );
-            break;
-          default:
-            term.echo(new String('Wrong command!'));
+    $('.term').terminal(
+      function(command, term) {
+        if(app.list[command]!=undefined){
+          window.open( app.list[command] );
+          term.echo( new String('You are visiting ' + app.list[command]) );
+        } else {
+          switch (command) {
+            case 'donate':
+              term.echo( new String('Donate ME ~') );
+              break;
+            case 'blog':
+              term.echo( new String('My Blog') );
+              break;
+            default:
+              term.echo(new String('Wrong command!'));
+          }
         }
-      }
-    }, {
+      }, {
         greetings: $('#welcome').html(),
         name: 'to0ls',
         height: '100%',
-        prompt: 'ety001@to0l.cn $ '});
+        prompt: 'ety001@to0l.cn $ '
+      }
+    );
   }
 };
 $(function(){
