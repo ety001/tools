@@ -1,4 +1,4 @@
-/*
+﻿/*
  * This css file is part of jquery terminal
  *
  * Licensed under GNU LGPL Version 3 license
@@ -87,11 +87,12 @@
     float: left;
 }
 .terminal, .cmd {
-    font-family: FreeMono, monospace;
+    white-space: pre;
+    font-family: Ubuntu Mono;
     color: #aaa;
     background-color: #000;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 11px;
+    line-height: 11px;
 }
 .terminal-output > div {
     /*padding-top: 3px;*/

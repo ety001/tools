@@ -6,6 +6,8 @@ body {
   left: 0;
   right: 0;
   overflow: hidden;
+  font-family: Ubuntu Mono;
+  font-size: 11px;
 }
 .term {
   height: 100%;
