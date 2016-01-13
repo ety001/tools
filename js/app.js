@@ -24,6 +24,7 @@ var app = {
     6: 'http://jizhang.ohshit.cc',
     7: 'http://partytime.cc',
     8: 'http://ohshit.cc',
+    9: 'http://so.to0l.cn',
     'donate': 'http://www.domyself.me/donate',
     'blog': 'http://www.domyself.me'
   },
