@@ -16,7 +16,7 @@ Type 'blog' to enter my blog.
 */
 var app = {
   list: {
-    1: 'http://upan.pro',
+    1: 'http://u.to0l.cn',
     2: 'http://oc.to0l.cn',
     3: 'http://bm.to0l.cn',
     4: 'http://pix.domyself.me',
