@@ -26,6 +26,7 @@ var app = {
     8: 'http://ohshit.cc',
     9: 'http://so.to0l.cn',
     10: 'http://to0l.cn/phpshell.html',
+    11: 'http://h8e.us',
     'donate': 'http://www.domyself.me/donate',
     'blog': 'http://www.domyself.me'
   },
