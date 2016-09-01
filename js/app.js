@@ -27,12 +27,17 @@ var app = {
     9: 'http://so.to0l.cn',
     10: 'http://to0l.cn/phpshell.html',
     11: 'http://h8e.us',
+    'md5': 'md5,your_str',
     'donate': 'http://www.domyself.me/donate',
     'blog': 'http://www.domyself.me'
   },
   run: function(){
     $('.term').terminal(
       function(command, term) {
+        var tmp_command = command.split(',');
+        if(tmp_command[0]=='md5') {
+          return term.echo( md5(tmp_command[1]) );
+        }
         if(app.list[command]!=undefined){
           window.open( app.list[command] );
           term.echo( new String('You are visiting ' + app.list[command]) );
