@@ -29,7 +29,9 @@ var app = {
     11: 'http://h8e.us',
     'md5': 'md5,your_str',
     'donate': 'https://blog.domyself.me/donate',
-    'blog': 'https://blog.domyself.me'
+    'blog': 'https://blog.domyself.me',
+    'github': 'https://github.com/ety001',
+    'steemit': 'https://steemit.com/@ety001'
   },
   run: function(){
     $('.term').terminal(
