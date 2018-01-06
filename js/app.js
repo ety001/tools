@@ -28,8 +28,8 @@ var app = {
     10: 'http://to0l.cn/phpshell.html',
     11: 'http://h8e.us',
     'md5': 'md5,your_str',
-    'donate': 'http://www.domyself.me/donate',
-    'blog': 'http://www.domyself.me'
+    'donate': 'https://blog.domyself.me/donate',
+    'blog': 'https://blog.domyself.me'
   },
   run: function(){
     $('.term').terminal(
@@ -49,7 +49,7 @@ var app = {
         name: 'to0ls',
         height: '100%',
         width: '100%',
-        prompt: 'ety001@to0l.cn $ '
+        prompt: 'work@domyself.me $ '
       }
     );
   }
