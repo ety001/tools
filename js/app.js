@@ -16,17 +16,12 @@ Type 'blog' to enter my blog.
 */
 var app = {
   list: {
-    1: 'http://u.to0l.cn',
-    2: 'http://oc.to0l.cn',
-    3: 'http://bm.to0l.cn',
-    4: 'http://pix.domyself.me',
-    5: 'http://gfw.fuckspam.in',
-    6: 'http://jizhang.ohshit.cc',
-    7: 'http://partytime.cc',
-    8: 'http://ohshit.cc',
-    9: 'http://so.to0l.cn',
-    10: 'http://to0l.cn/phpshell.html',
-    11: 'http://h8e.us',
+    1: 'https://u.to0l.cn',
+    2: 'https://oc.to0l.cn',
+    3: 'https://bm.to0l.cn',
+    4: 'https://pix.domyself.me',
+    5: 'https://cors.to0l.cn',
+    6: 'http://to0l.cn/phpshell.html',
     'md5': 'md5,your_str',
     'donate': 'https://blog.domyself.me/donate',
     'blog': 'https://blog.domyself.me',
