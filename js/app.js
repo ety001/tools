@@ -23,8 +23,8 @@ var app = {
     5: 'https://cors.to0l.cn',
     6: 'http://to0l.cn/phpshell.html',
     'md5': 'md5,your_str',
-    'donate': 'https://blog.domyself.me/donate',
-    'blog': 'https://blog.domyself.me',
+    'donate': 'https://pix.domyself.me/donate',
+    'blog': 'https://pix.domyself.me',
     'github': 'https://github.com/ety001',
     'steemit': 'https://steemit.com/@ety001'
   },
