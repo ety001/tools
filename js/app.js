@@ -18,7 +18,7 @@ var app = {
   list: {
     1: 'https://u.to0l.cn',
     2: 'https://oc.to0l.cn',
-    3: 'https://bm.to0l.cn',
+    3: 'https://creatorsdaily.com/9999e88d-0b00-46dc-8ff1-e1d311695324#comments',
     4: 'https://pix.domyself.me',
     5: 'https://cors.to0l.cn',
     6: 'http://to0l.cn/phpshell.html',
