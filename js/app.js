@@ -46,7 +46,7 @@ var app = {
         name: 'to0ls',
         height: '100%',
         width: '100%',
-        prompt: 'work@domyself.me $ '
+        prompt: 'work@akawa.ink $ '
       }
     );
   }
